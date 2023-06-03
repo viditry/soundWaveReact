@@ -1,0 +1,50 @@
+.custom-select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #fff;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>');
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.left{
+    width: 30%;
+    border: 1px solid #707070;
+    height: 100px;
+
+}
+.right{
+    width: 70%;
+    border: 1px solid #3b3b3b;
+    height: 100px;
+ margin-left:  auto;
+
+
+}
+.navbarsss
+{
+    height: 65px;
+    display: flex;
+    border-bottom-style: solid;
+}
+.dot {
+    display: flex;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.dot-blue {
+    background-color: blue;
+}
+
+.dot-text {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.border-dark{
+    background:#A2AEBC ;
+}

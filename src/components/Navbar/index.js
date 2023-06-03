@@ -5,9 +5,9 @@ import {
     Bars,
     NavMenu,
     NavBtn,
-    NavBtnLink,
+     Settingss, Usersss, Notifs, WelcomeText,
 } from './NavbarElements';
-
+import logo from '../../picture/GroundUp.png';
 const Navbar = () => {
     return (
         <>
@@ -15,30 +15,27 @@ const Navbar = () => {
                 <Bars />
 
                 <NavMenu>
-                    <NavLink to='/about' activeStyle>
-                        About
+                    <img src={logo} alt="Logo"/>
+
+                    <NavLink to='/' activeStyle>
+                        DASHBOARD
                     </NavLink>
-                    <NavLink to='/events' activeStyle>
-                        Events
-                    </NavLink>
-                    <NavLink to='/annual' activeStyle>
-                        Annual Report
-                    </NavLink>
-                    <NavLink to='/team' activeStyle>
-                        Teams
-                    </NavLink>
-                    <NavLink to='/blogs' activeStyle>
-                        Blogs
-                    </NavLink>
-                    <NavLink to='/sign-up' activeStyle>
-                        Sign Up
+                    <NavLink to='/abouts' activeStyle>
+                        ALERTS
                     </NavLink>
                     {/* Second Nav */}
                     {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
                 </NavMenu>
-                <NavBtn>
-                    <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-                </NavBtn>
+                <NavMenu>
+                    <NavBtn>
+                        <Settingss />
+                        <Usersss />
+                        <Notifs />
+
+                        <WelcomeText>Welcome Admin</WelcomeText>
+
+                    </NavBtn>
+                </NavMenu>
             </Nav>
         </>
     );
